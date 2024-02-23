@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 100px;
+    color: gray;
+}
+.doctor-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.doctor-image-box{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+.doctor-image{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.doctor-image-box:hover{
+    cursor: pointer;
+    scale: 1.06;  
+}
